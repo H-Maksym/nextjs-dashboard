@@ -9,7 +9,13 @@ import {
   RevenueChartSkeleton,
 } from '@/app/ui/skeletons';
 
-export const Page = async () => {
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Overview',
+};
+
+export const Overview = async () => {
   return (
     <main>
       <h1 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>
@@ -32,4 +38,4 @@ export const Page = async () => {
   );
 };
 
-export default Page;
+export default Overview;
