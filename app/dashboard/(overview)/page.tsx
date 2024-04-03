@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   title: 'Overview',
 };
 
-export const Overview = async () => {
+export const Page = async () => {
   return (
     <main>
       <h1 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>
@@ -38,4 +38,4 @@ export const Overview = async () => {
   );
 };
 
-export default Overview;
+export default Page;
